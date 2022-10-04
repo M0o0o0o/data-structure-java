@@ -17,6 +17,6 @@ public interface Stackable {
     // peek
     OptionalInt peek();
 
+    // size
     int size();
-
 }
