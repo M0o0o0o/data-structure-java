@@ -5,9 +5,9 @@ import java.util.OptionalInt;
 
 public interface Queueable {
 
-    boolean add(int e);
-
+    void add(int e);
     OptionalInt poll();
+
 
 
 }

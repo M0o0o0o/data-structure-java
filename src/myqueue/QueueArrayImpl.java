@@ -15,7 +15,7 @@ public class QueueArrayImpl implements Queueable {
     }
 
     @Override
-    public boolean add(int e) {
+    public void add(int e) {
         this.queue[++head] = e;
     }
 
